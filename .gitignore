@@ -1,42 +1,11 @@
-# Prerequisites
-*.d
+#ignore all files in each directory
+*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#unignore
+!.gitignore
+!LICENSE
+!README.md
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Mac & VScode
-.DS_Store
-build
-
-# cmake
-CMakeFiles
-cmake_install.cmake
-CMakeCache.txt
-Makefile
+!*/*.cpp
+!CMakeLists.txt
+!DisplayImage.cpp

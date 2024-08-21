@@ -14,6 +14,7 @@ find_package( OpenCV REQUIRED )
 include_directories( /opt/homebrew/Cellar/opencv/4.10.0_3/include/opencv4 )
 
 add_executable( DisplayImage DisplayImage.cpp )
+
 file(GLOB libraries
      "/opt/homebrew/Cellar/opencv/4.10.0_3/lib/*.dylib"
      "/opt/homebrew/Cellar/opencv/4.10.0_3/lib/*.a"
